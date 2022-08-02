@@ -1,1 +1,1 @@
-# balance_filing
+The trb.py helps integrate information from different systems e.g. investment, loan, saving to create a total relationship balance for each customers for further data analysis. investment.py, loan.py, investment.py help generate the corresponding report for the product. data_extractor.py helps extract data from txt. 
