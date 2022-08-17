@@ -15,7 +15,7 @@ end_year = int(input('end year: '))
 start_month = int(input('start month: '))
 end_month = int(input('end month: '))
 
-for year in range(start_year,end_year+1)
+for year in range(start_year,end_year+1):
     for month in range(start_month, end_month+1):
         required_sa = sa[(sa.Year == year) & (sa.Month == month)]
         required_ca = ca[(ca.Year == year) & (ca.Month == month)]
